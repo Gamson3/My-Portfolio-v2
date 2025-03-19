@@ -5,10 +5,11 @@ import WeatherApp from "../assets/projects/WeatherApp-image.png";
 
 export const Experiences = [
     {
-    role: "Graphics Designer",
+    role: "Freelance Designer & Developer",
     company: "Freelance",
     year: "2022 - Present",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js API's. Implemented responsive designs and optimised for frontend performances.`,
+    description: `Designed and developed websites, branding materials, and UI elements to enhance client identity.
+    Applied frontend development principles to create engaging and interactive user interfaces.`,
     technologies: ["Adobe Photoshop", "illustrator", "Figma", "Others"]
 
 },{
