@@ -44,8 +44,8 @@ export const Projects = [
         image: PortfolioSite,
         description: "First version of my personal portfolio website showcasing my skills and projects. This project demonstrates my proficiency in HTML, CSS, and JavaScript, with a focus on responsive design and user experience.",
         technologies: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/Gamson3/My-Portfolio",
-        live: "https://gamson3.github.io/My-Portfolio/"
+        github: "https://github.com/Gamson3/My-Portfolio-v1",
+        live: "https://gamson3.github.io/My-Portfolio-v1/"
     },
     {
         title: "Weatherly",
