@@ -75,7 +75,7 @@ const About = () => {
                       <span className="text-[#27dddf]">
                         Programming Languages:
                       </span>
-                      <br /> JavaScript, Python, Java, HTML5, CSS3, SQL
+                      <br /> JavaScript, Python, Java, HTML, CSS, SQL
                     </li>
                     <li>
                       <span className="text-[#27dddf]">
@@ -86,11 +86,11 @@ const About = () => {
                     </li>
                     <li>
                       <span className="text-[#27dddf]">Tools:</span>
-                      <br /> Git, Agile Development, REST APIs
+                      <br /> Git, GitHub, Agile Development, Figma
                     </li>
                     <li>
                       <span className="text-[#27dddf]">Other:</span>
-                      <br /> OpenWeatherMap API, UI/UX Design
+                      <br />API Integration, UI/UX Design
                     </li>
                   </ul>
                 </div>
