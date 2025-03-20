@@ -1,12 +1,71 @@
-# React + Vite
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/Gamson3/My-Portfolio-v2/refs/heads/main/public/logo_Icon.svg" width="50" />
+</div>
+<h1 align="center">
+  Gideon Gamson
+</h1>
+<p align="center">
+  The Second iteration of <a href="https://my-portfolio-v2-gamma-seven.vercel.app/" target="_blank">My Personal Website</a> built with <a href="https://www.react.dev/" target="_blank">React +</a> <a href="https://https://v3.vitejs.dev/guide//" target="_blank">Vite</a> 
+  <br>
+  styled with <a href="https://tailwindcss.com/" target="_blank" >Tailwind CSS</a>, animated using <a href="https://motion.dev/" target="_blank" >Framer Motion</a>
+  and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>
+</p>
+<p align="center">
+  Previous iteration:
+  <a href="https://gamson3.github.io/My-Portfolio/" target="_blank">First Version of My Personal Website</a>
+</p>
+<p align="center">
+  <a href="https://vercel.com/gamsons-projects/my-portfolio-v2/deployments" target="_blank">
+    <img src="https://img.shields.io/github/deployments/gamson3/My-Portfolio-v2/production?label=Vercel&logo=vercel&style=for-the-badge" alt="Vercel Deployment Status" /> 
+  </a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![demo](src/assets/demo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚨 Forking this repo (Kindly read!)
 
-## Expanding the ESLint configuration
+### TL;DR
+Yes, you can fork this repo. <br>
+If you fork or modify this repository for your own use, please provide proper credit. A simple mention or link back to [My Portfolio v2](https://my-portfolio-v2-gamma-seven.vercel.app/) would be greatly appreciated. Thanks! 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🤝 Contributing
+Have suggestions for improvements? Feel free to fork this repo, make your changes, and submit a pull request.
+
+
+## **🛠 Installation & Setup**  
+
+1. Clone the Repository 
+   ```sh
+    git clone https://github.com/gamson3/My-portfolio-v2.git
+    cd My-portfolio-v2
+   ```
+
+2. Install Dependencies  
+   ```sh
+    npm install
+   ```
+
+3. Start the Development Server 
+    ```sh
+    npm run dev
+    ```
+    Your portfolio will be live at **[http://localhost:5173](http://localhost:5173)** 🎉  NB: This usually varies
+
+## **🚀 Building & Deployment**  
+
+1. Create a Production Build 
+    ```sh
+    npm run build
+    ```
+
+2. Preview the Production Build Locally
+    ```sh
+    npm run preview
+    ```
+
+Once built, deploy it using **Vercel, Netlify, GitHub Pages**, or any static hosting service.  
+
+---
+
+Feel free to **customize the repo links and usernames** before using this in your project. 🚀
