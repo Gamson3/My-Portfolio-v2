@@ -13,8 +13,7 @@ const Contact = () => {
 
         <p className="pb-20 text-base sm:text-lg text-[#8892b0]">
           Have a project in mind or just want to say hello? I’d love to hear
-          from you! Whether you're looking to collaborate, have questions about
-          our work, or simply want to chat, feel free to reach out. Drop me a
+          from you! Whether you're looking to collaborate, have questions about work, or simply want to chat, feel free to reach out. Drop me a
           message, and I'll get back to you as soon as possible. Let’s create
           something amazing together!
         </p>
