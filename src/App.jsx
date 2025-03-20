@@ -14,11 +14,6 @@ import Loading from "./components/Loading";
 const App = () => {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
-  }, []);
 
   return loading ? (
     <Loading onComplete = {()=> setLoading(false)} />
