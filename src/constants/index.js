@@ -42,8 +42,8 @@ export const Projects = [
     {
         title: "Portfolio Website",
         image: PortfolioSite,
-        description: "A personal portfolio website showcasing my skills and projects. This project demonstrates my proficiency in HTML, CSS, and JavaScript, with a focus on responsive design and user experience.",
-        technologies: ["React", "Tailwind CSS", "Vite"],
+        description: "First version of my personal portfolio website showcasing my skills and projects. This project demonstrates my proficiency in HTML, CSS, and JavaScript, with a focus on responsive design and user experience.",
+        technologies: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/Gamson3/My-Portfolio",
         live: "https://gamson3.github.io/My-Portfolio/"
     },
@@ -51,7 +51,7 @@ export const Projects = [
         title: "Weatherly",
         image: WeatherApp,
         description: "A responsive weather app using HTML, CSS, and JavaScript with real-time data from the OpenWeatherMap API. Implemented features like a light/dark mode toggle, city-based search, and a modern neumorphic UI for a seamless user experience across devices.",
-        technologies: ["HTML", "CSS", "JavaScript"],
+        technologies: ["HTML", "CSS", "JavaScript", "OpenWeather API"],
         github: "https://github.com/Gamson3/Weatherly",
         live: "https://gamson3.github.io/Weatherly/"
     },
