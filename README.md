@@ -65,7 +65,3 @@ Have suggestions for improvements? Feel free to fork this repo, make your change
     ```
 
 Once built, deploy it using **Vercel, Netlify, GitHub Pages**, or any static hosting service.  
-
----
-
-Feel free to **customize the repo links and usernames** before using this in your project. 🚀
