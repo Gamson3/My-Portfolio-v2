@@ -33,6 +33,31 @@ const Navbar = () => {
   const lastScrollY = useRef(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const [activeSection, setActiveSection] = useState(""); //Add state to track the active section 
+
+  //Use useEffect to detect which section is in view
+  useEffect(()=>{
+    const sections = document.querySelectorAll("section");
+    const options = {
+      root: null,
+      rootMargin: "-64px 0px 0px 0px", //Adjust rootMargin to compensate for the navbar height
+      threshold: 0.3, //Detect when 30% of the section is in view
+    };
+
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach((entry) => {
+        if (entry.isIntersecting){
+          console.log("Visible Section:", entry.target.id); // Debugging log
+          setActiveSection(entry.target.id);
+        }
+      });
+    }, options);
+
+    sections.forEach((section) => observer.observe(section))
+
+    return () => sections.forEach((section) => observer.unobserve(section));
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -89,7 +114,9 @@ const Navbar = () => {
           <motion.a
             key={link.name}
             href={link.href}
-            className="hover:text-[#27DDDF]"
+            className={`hover:text-[#27DDDF] transition-all duration-300 ${
+              activeSection === link.href.substring(1) ? "text-[#27dddf] " : "text-gray-400"
+            }`}
             variants={navLinksVariants}
             custom={index}
             onClick={closeMenu}

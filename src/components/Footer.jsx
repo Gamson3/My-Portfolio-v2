@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="mt-20 pb-4 container mx-auto px-6 md:px-16 lg:px-32">
+    <div className="mt-20 pb-4 container mx-auto px-6 md:px-16 lg:px-32">
       <div className="lg:hidden my-8 flex gap-12 items-center justify-center">
         <a href="https://github.com/gamson3" target="_blank" rel="noopener noreferrer">
           <FaGithub
@@ -34,7 +34,7 @@ const Footer = () => {
       <p className="text-center text-sm text-[#8892b0]">
         Designed & Built by Gideon Gamson
       </p>
-    </section>
+    </div>
   );
 };
 
