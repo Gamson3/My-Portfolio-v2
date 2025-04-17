@@ -16,22 +16,22 @@ const TechStack = () => {
       </p>
       
       <div className="flex flex-wrap items-center justify-center gap-4">
-        <div className="border-2 border-neutral-500 p-4 rounded-2xl">
+        <div className="border-2 border-neutral-500 p-4 rounded-2xl" title="React">
           <RiReactjsLine className="text-4xl text-cyan-400" />
         </div>
-        <div className="border-2 border-neutral-500 p-4 rounded-2xl">
+        <div className="border-2 border-neutral-500 p-4 rounded-2xl" title="Next.js">
           <TbBrandNextjs className="text-4xl" />
         </div>
-        <div className="border-2 border-neutral-500 p-4 rounded-2xl">
+        <div className="border-2 border-neutral-500 p-4 rounded-2xl" title="WordPress">
           <FaWordpress className="text-4xl text-[#087aa0]" />
         </div>
-        <div className="border-2 border-neutral-500 p-4 rounded-2xl">
+        <div className="border-2 border-neutral-500 p-4 rounded-2xl" title="Python">
           <FaPython className="text-4xl text-blue-400" />
         </div>
-        <div className="border-2 border-neutral-500 p-4 rounded-2xl">
+        <div className="border-2 border-neutral-500 p-4 rounded-2xl" title="Node.js">
           <FaNodeJs className="text-4xl text-cyan-400" />
         </div>
-        <div className="border-2 border-neutral-500 p-4 rounded-2xl">
+        <div className="border-2 border-neutral-500 p-4 rounded-2xl" title="PostgreSQL">
           <BiLogoPostgresql className="text-4xl text-sky-700" />
         </div>
       </div>
