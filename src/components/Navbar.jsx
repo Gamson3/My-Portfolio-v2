@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Logo from "./Logo";
-import { motion } from "motion/react";
+import { motion as Motion } from "motion/react";
 
 const navbarVariants = {
   hidden: { opacity: 0, y: -20 },
@@ -81,7 +81,7 @@ const Navbar = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <motion.nav
+    <Motion.nav
       initial="hidden"
       animate="visible"
       variants={navbarVariants}
@@ -94,24 +94,24 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <motion.a
+      <Motion.a
         href="#home"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <Logo />
-      </motion.a>
+      </Motion.a>
 
       {/* Desktop Nav Links (Hidden on Small Screens) */}
-      <motion.div
+      <Motion.div
         className="hidden lg:flex items-center gap-8 text-gray-400 text-sm lg:text-base"
         variants={navLinksVariants}
         initial="hidden"
         animate="visible"
       >
         {navLinks.map((link, index) => (
-          <motion.a
+          <Motion.a
             key={link.name}
             href={link.href}
             className={`hover:text-[#27DDDF] transition-all duration-300 ${
@@ -122,11 +122,11 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             {link.name}
-          </motion.a>
+          </Motion.a>
         ))}
 
         {/* Resume Button */}
-        <motion.a
+        <Motion.a
           href="/Gamson_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
@@ -142,13 +142,15 @@ const Navbar = () => {
           custom={5} // Ensures animation order
         >
           Resume
-        </motion.a>
-      </motion.div>
+        </Motion.a>
+      </Motion.div>
 
       {/* Mobile Menu Button (Visible on Small Screens) */}
       <button
         className="block lg:hidden text-white text-2xl cursor-pointer"
         onClick={() => setIsMenuOpen(true)}
+        aria-label="Open navigation menu"
+        aria-expanded={isMenuOpen}
       >
         <FiMenu />
       </button>
@@ -169,7 +171,7 @@ const Navbar = () => {
 
         {/* Mobile Nav Links */}
         {navLinks.map((link, index) => (
-          <motion.a
+          <Motion.a
             key={link.name}
             href={link.href}
             className="hover:text-[#27DDDF]"
@@ -178,7 +180,7 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             {link.name}
-          </motion.a>
+          </Motion.a>
         ))}
 
         {/* Resume Button */}
@@ -189,7 +191,7 @@ const Navbar = () => {
           Resume
         </a>
       </div>
-    </motion.nav>
+    </Motion.nav>
   );
 };
 
