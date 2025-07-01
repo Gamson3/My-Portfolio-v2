@@ -51,15 +51,15 @@ const About = () => {
           {/* Right Section (Tabs) */}
           <div className="flex flex-col">
             {/* Tab Links */}
-            <div className="flex space-x-8 mb-4 max-h-[25px] ">
+            <div className="flex flex-wrap space-x-2 sm:space-x-8 mb-4 max-h-[25px] ">
               {["skills", "education"].map((tab) => (
                 <p
                   key={tab}
                   onClick={() => setActiveTab(tab)}
-                  className={`relative mr-12 text-lg font-medium cursor-pointer transition-all
+                  className={`relative mr-12 text-base sm:text-lg font-medium cursor-pointer transition-all mb-2 sm:mb-0
             ${activeTab === tab ? "text-gray-500" : "text-gray-600"}
             before:absolute before:left-0 before:bottom-[-8px] before:h-[3px] before:bg-[#27dddf] before:transition-all before:duration-300
-            ${activeTab === tab ? "before:w-1/2" : "before:w-0"}`}
+            ${activeTab === tab ? "before:w-full sm:before:w-1/2" : "before:w-0"}`}
                 >
                   {tab.charAt(0).toUpperCase() + tab.slice(1)}
                 </p>
