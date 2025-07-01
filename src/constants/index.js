@@ -10,7 +10,7 @@ export const Experiences = [
     year: "2022 - Present",
     description: `Designed and developed websites, branding materials, and UI elements to enhance client identity.
     Applied frontend development principles to create engaging and interactive user interfaces.`,
-    technologies: ["Adobe Photoshop", "illustrator", "Figma", "Others"]
+    technologies: ["WordPress", "Next.js", "Adobe Photoshop", "Figma", "Others"]
 
 },{
     role: "Customer Care & Sales Representative ",
@@ -37,7 +37,7 @@ export const Projects = [
         description: "A React-based movie discovery app that allows users to browse popular movies, search for specific titles, and save favourites. Built with Vite, React Router, and The Movie Database (TMDb) API, it provides an intuitive interface for movie lovers.",
         technologies: ["React", "Vite", "CSS", "TMDb API"],
         github: "https://github.com/Gamson3/MovieHive",
-        live: "https://gamson3.github.io/MovieHive/"
+        live: "https://movie-hive-two.vercel.app/"
     },
     {
         title: "Portfolio Website",
