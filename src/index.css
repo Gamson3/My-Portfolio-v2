@@ -10,3 +10,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Add global text color */
+body {
+  color: #d2d3d4;
+  background-color: #0A192F;
+}
+
+/* Override any potential mobile browser defaults */
+@media (max-width: 768px) {
+  body, html {
+    color: #d2d3d4;
+    background-color: #0A192F;
+  }
+}
