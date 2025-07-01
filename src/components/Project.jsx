@@ -28,6 +28,7 @@ const Project = () => {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-full object-cover rounded-lg aspect-[3/4] sm:aspect-auto"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-[#0c4243] opacity-50 transition-opacity duration-300 group-hover:opacity-0 rounded-lg"></div>
 
